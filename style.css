@@ -1,0 +1,555 @@
+/* === Общие стили для всего сайта === */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f4f4f4; /* общий фон */
+    color: #333;
+}
+
+/* Шапка (header) */
+.site-header {
+    background:#388E3C;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+
+/* Меню (nav) */
+/* Navigation bar */
+.site-nav{
+    background-color: #333;
+    padding: 10px 0;
+}
+.site-nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+.site-nav ul li {
+    display: inline-block;
+    margin: 0 15px;
+}
+.site-nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 6px 10px;
+    border-radius: 5px;
+}
+.site-nav ul li a:hover {
+    background-color: #388E3C;
+}
+.nav-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+.nav-list li {
+    display: inline-block;
+    margin: 0 15px;
+}
+.nav-list a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+
+/* Основной контент */
+/* Стили для текста на главной */
+.main-content ul {
+    margin: 10px 0 20px 20px;
+    line-height: 1.6;
+}
+.main-content ol {
+    margin: 10px 0 20px 40px;
+    line-height: 1.6;
+}
+.main-content h3 {
+    margin-top: 20px;
+    color: #444;
+    border-left: 4px solid #388E3C;
+    padding-left: 10px;
+}
+.main-content code {
+    background: #eee;
+    padding: 2px 5px;
+    border-radius: 5px;
+    font-family: monospace;
+}
+
+
+/* Подвал (footer) */
+.site-footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    margin-top: 30px;
+}
+.myimage img {
+  width: 200px;   /* уменьшаем ширину */
+  height: auto;   /* сохраняем пропорции */
+  border-radius: 12px; /* скруглённые края, если хочешь красивее */
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15); /* лёгкая тень */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Header */
+.t1-header {
+    background-color: #388E3C;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    border-bottom: 4px solid #388E3C;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+
+/* Navigation bar */
+.t1-nav {
+    background-color: #333;
+    padding: 10px 0;
+}
+.t1-nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+.t1-nav ul li {
+    display: inline-block;
+    margin: 0 15px;
+}
+.t1-nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 6px 10px;
+    border-radius: 5px;
+}
+.t1-nav ul li a:hover {
+    background-color:#388E3C;
+}
+
+/* Sidebar */
+.t1-sidebar {
+    float: left;
+    width: 25%;
+    background-color: #f1f1f1;
+    padding: 15px;
+    border-right: 2px solid #ccc;
+    box-shadow: inset -2px 0 5px rgba(0,0,0,0.05);
+}
+.t1-sidebar h3 {
+    margin-top: 0;
+    color: #333;
+}
+.t1-sidebar ul {
+    list-style: square;
+    padding-left: 20px;
+}
+
+/* Main Content */
+.t1-main {
+    float: right;
+    width: 70%;
+    background-color: #fff;
+    padding: 20px;
+    border-left: 2px solid #ccc;
+    box-shadow: inset 2px 0 5px rgba(0,0,0,0.05);
+}
+.t1-main h2 {
+    color: #4CAF50;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Footer */
+.t1-footer {
+    clear: both;
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 12px;
+    margin-top: 20px;
+    border-top: 4px solid #388E3C;
+}
+/* === TASK 2 PAGE STYLES === */
+
+.t2-body {
+    font-family: 'Roboto', sans-serif;
+    background: linear-gradient(to right, #f8f9fa, #e3f2fd);
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+/* Header */
+.t2-header {
+    background-color: #388E3C;
+    color: white;
+    text-align: center;
+    padding: 25px;
+    font-family: 'Merriweather', serif;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.3);
+}
+
+/* Content */
+.t2-content {
+    max-width: 900px;
+    margin: 20px auto;
+    background: white;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.15);
+}
+
+/* Headings */
+.t2-content h2 {
+    color: #388E3C;
+    margin-top: 20px;
+}
+.t2-content h3 {
+    font-weight: normal;
+    color: #555;
+}
+
+/* Paragraph */
+.t2-content p {
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+/* Lists */
+.t2-content ol, 
+.t2-content ul {
+    margin: 15px 0 20px 40px;
+}
+.t2-content ol li,
+.t2-content ul li {
+    margin-bottom: 8px;
+}
+
+/* Image */
+.t2-image {
+    text-align: center;
+    margin: 25px 0;
+}
+.t2-image img {
+    max-width: 250px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+}
+
+/* Links */
+.t2-links {
+    text-align: center;
+    margin: 20px 0;
+}
+.t2-links a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #388E3C;
+    margin: 0 10px;
+}
+.t2-links a:hover {
+    text-decoration: underline;
+}
+
+/* Button */
+.t2-btn {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 12px 20px;
+    background-color:#388E3C;
+    color: white;
+    border-radius: 6px;
+    text-decoration: none;
+    transition: background 0.3s;
+}
+.t2-btn:hover {
+    background-color: #388E3C;
+}
+
+/* Footer */
+.t2-footer {
+    background-color: #388E3C;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ===== Заголовок ===== */
+#page-heading {
+  text-align: center;
+  font-size: 28px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+/* ===== Таблица ===== */
+table {
+  width: 70%;
+  margin: 0 auto 40px auto; /* центрируем таблицу */
+  border-collapse: collapse;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+th, td {
+  border: 1px solid #444;
+  padding: 12px;
+  text-align: center;
+}
+
+thead {
+  background-color: #388E3C; /* синий фон для заголовка */
+  color: white;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #f2f2f2; /* чередующиеся строки */
+}
+
+.highlight-row {
+  background-color: #ffd966; /* выделенная строка */
+}
+
+/* ===== Форма ===== */
+.feedback-form {
+  width: 400px;
+  margin: 0 auto; /* центрируем форму */
+  background: #fafafa;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.1);
+}
+
+.feedback-form label {
+  display: block;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.feedback-form input,
+.feedback-form select,
+.feedback-form textarea {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+.feedback-form button {
+  width: 100%;
+  padding: 10px;
+  background: #14aa23;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.feedback-form button:hover {
+  background: #388E3C;
+}
+
+
+
+
+
+
+
+.site-header {
+    background-color: #388E3C;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Header */
+.t4-header {
+  background: linear-gradient(90deg,#222,#2b2b2b);
+  color: #fcf8f8;
+  padding: 14px 0;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.25);
+}
+.t4-header-inner {
+  max-width: 1100px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 15px;
+}
+.t4-logo {
+  font-weight: 700;
+  letter-spacing: 0.4px;
+}
+.t4-topnav a {
+  color: #ddd;
+  text-decoration: none;
+  margin-left: 16px;
+  padding: 6px 10px;
+  border-radius: 6px;
+}
+.t4-topnav a:hover,
+.t4-topnav a.active {
+  background: #2e8b57; /* зелёный акцент */
+  color: white;
+}
+
+/* Main container */
+.t4-main {
+  max-width: 1100px;
+  margin: 28px auto;
+  padding: 0 15px 40px;
+}
+
+/* Sections */
+.t4-section {
+  background: #fff;
+  border-radius: 10px;
+  padding: 18px;
+  margin-bottom: 18px;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.06);
+}
+.t4-description h1 {
+  margin-top: 0;
+  color: #2e8b57;
+}
+.t4-intro { color: #333; line-height: 1.6; }
+
+/* Sitemap diagram (simple boxes in a row) */
+.t4-sitemap-diagram {
+  display: flex;
+  gap: 12px;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 12px 0 8px;
+}
+
+
+/* Sitemap list */
+.t4-sitemap-list {
+  margin-top: 10px;
+  list-style: disc inside;
+  color: #444;
+}
+
+/* Wireframes gallery */
+.t4-wireframe-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 14px;
+  align-items: start;
+}
+
+/* On small screens make it 1 column */
+@media (max-width: 800px) {
+  .t4-wireframe-grid { grid-template-columns: 1fr; }
+}
+
+/* Each wireframe figure */
+.wf {
+  background: #fafafa;
+  border: 1px solid #eee;
+  padding: 10px;
+  border-radius: 8px;
+  text-align: center;
+}
+.wf img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 6px;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.08);
+}
+.wf figcaption {
+  margin-top: 8px;
+  color: #555;
+  font-size: 14px;
+}
+
+/* Note text */
+.note {
+  color: #666;
+  font-size: 14px;
+  margin-bottom: 12px;
+}
+
+/* Conclusion */
+.t4-conclusion p { color: #333; line-height: 1.6; }
+
+/* Footer */
+.t4-footer {
+  background: #222;
+  color: #ddd;
+  text-align: center;
+  padding: 16px 0;
+  margin-top: 30px;
+}
